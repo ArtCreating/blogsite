@@ -1,0 +1,8 @@
+{% extends 'blog/blog_list.html' %}
+{% block title %}{{ blog_type.type_name }}{% endblock %}
+
+{% block blog_list_title %}
+    <h4>{{ blogs_with_date }}发表的博客</h4>
+    <a href="{% url 'blog_list' %}">查看全部博客</a>
+{% endblock %}
+

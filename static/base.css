@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 70px!important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul.navbar-right {
+    margin-right: 0;
+}
+
+div.user_info_container {
+    border: 1px solid #d1d1d1;
+    background-color: #f8f8f8;
+    padding: 1em 2em 2em;
+    line-height:25px
+
+}
+
